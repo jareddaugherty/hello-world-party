@@ -1,11 +1,15 @@
 /*
- * Author: Carlos Alvarez
+ * Original Author: Carlos Alvarez
  * URL: http://Alvarez.is
  *
  * Project Name: NYC Design
  * Version: 1.0
  * Date: 04-20-2014
  * URL:
+ *
+ * Modified By: Spencer Scorcelletti
+ * GitHub: asimpletune
+ * 
  */
 
 
@@ -271,14 +275,23 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+#headerwrap h1, h6 {
+  color:#ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+}
+
 #headerwrap h1 {
-	color:#ffffff;
 	margin-top: 90px;
 	padding-bottom: 30px;
-	letter-spacing: 8px;
+  letter-spacing: 8px;
 	font-size: 100px;
-	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
+}
+
+#headerwrap h6 {
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin-top: -36px;
 }
 
 /* About Wrap & Conf */
